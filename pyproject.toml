@@ -21,3 +21,9 @@ dependencies = [
     "pytest==9.0.3",
     "ruff==0.15.12",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
