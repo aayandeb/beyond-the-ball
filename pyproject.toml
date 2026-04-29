@@ -1,5 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "beyond-the-ball"
 version = "0.1.0"
 description = "Machine learning project for soccer event and 360 freeze-frame analysis"
 requires-python = ">=3.11"
+dependencies = [
+    "statsbombpy==1.18.0",
+    "mplsoccer==1.6.1",
+    "pandas==3.0.2",
+    "numpy==2.4.4",
+    "scikit-learn==1.8.0",
+    "torch==2.11.0",
+    "matplotlib==3.10.9",
+    "seaborn==0.13.2",
+    "pyarrow==24.0.0",
+    "typer==0.25.0",
+    "pytest==9.0.3",
+    "ruff==0.15.12",
+]
